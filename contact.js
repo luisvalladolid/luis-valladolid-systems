@@ -1,7 +1,7 @@
 const auditForm = document.getElementById('audit-form');
 const formStatus = document.getElementById('form-status');
 const submitButton = auditForm.querySelector('[type="submit"]');
-const webhookUrl = window.LANDING_PAGE_WEBHOOK_URL || "";
+const webhookUrl = '/api/submit-audit';
 let isSubmitting = false;
 let pendingSubmissionId = null;
 
