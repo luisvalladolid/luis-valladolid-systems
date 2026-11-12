@@ -1,4 +1,5 @@
+"$schema" = "https://open-api.netlify.com/netlify.schema.json"
 [build]
-  command = "mkdir -p public && cp index.html style.css contact.js luis-valladolid-resume.pdf public/"
+  command = "mkdir -p public && cp index.html style.css interaction.js contact.js luis-valladolid-resume.pdf public/"
   publish = "public"
   functions = "netlify/functions"
