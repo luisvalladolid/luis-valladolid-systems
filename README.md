@@ -9,9 +9,10 @@ A landing page showcasing Luis Valladolid’s automation, data and software serv
 - `index.html` — page content and structure
 - `style.css` — styling
 - `contact.js` — audit request form logic
+- `luis-valladolid-resume.pdf` — downloadable resume
 
 ## Local preview
 
 Run `python -m http.server 8000` and open `http://localhost:8000`.
 
-The contact form endpoint is intentionally omitted from this public copy. Configure `window.LANDING_PAGE_WEBHOOK_URL` before `contact.js` loads to use a suitable endpoint. The resume PDF is not included. This repository is a copy of the published site, and changes here do not automatically update the live ChatGPT Site.
+The contact form endpoint is intentionally omitted from this public copy. Configure `window.LANDING_PAGE_WEBHOOK_URL` before `contact.js` loads to use a suitable endpoint. This repository is a copy of the published site, and changes here do not automatically update the live ChatGPT Site.
